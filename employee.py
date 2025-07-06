@@ -43,8 +43,8 @@ print('hash e2', hex(hash(e2)))
 
 '''
 create a Circle class
-in the __init__ get the radius
-add function get_area
+in the __init__ get the radius (store as private + getter/setter)
+add function get_area, __str__, __repr__
 implement __eq__ 
 implement __hash__
 create 2 circles with the same radius
