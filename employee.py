@@ -1,3 +1,5 @@
+import math
+
 
 class Employee:
     def __init__(self, emp_id, fname, lname, salary):
@@ -41,14 +43,4 @@ print('hash e2', hex(hash(e2)))
 # if you rewrite the __eq__ you must rewrite the hash function
 
 
-'''
-create a Circle class
-in the __init__ get the radius (store as private + getter/setter)
-add function get_area, __str__, __repr__
-implement __eq__ 
-implement __hash__
-create 2 circles with the same radius
-store in dict a value 'one' using the 1 circle object as key
-then store a value 'two' using the 2nd circle object as key
-print the dict -- how many items are stored?
-'''
+
